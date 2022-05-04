@@ -1,5 +1,7 @@
 # NBLite: Minimalistic ClientSide Notebooks
 
+Check it out: https://eduardobonet.gitlab.io/nblite/
+
 ![example](./img/example.png)
 
 NBLite is a proof of concept that creates a client side runnable version of a notebook, adding minimal styling and content, with the goal of exploring PyScript.
