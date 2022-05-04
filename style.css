@@ -1,0 +1,30 @@
+body {
+    padding: 32px 64px;
+}
+#nb-content {
+    max-width: 800px;
+}
+
+#nb-selector {
+    max-width: 800px;
+    padding: 16px;
+    margin: auto;
+    background-color: lightblue;
+    margin-bottom: 16px;
+}
+
+#nb-selector form {
+    margin: 0;
+}
+
+#nb-selector form * {
+    display: inline;
+}
+
+iframe {
+    padding: 16px;
+    display: block;       /* iframes are inline by default */
+    border: 1px;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 100%;
+}
