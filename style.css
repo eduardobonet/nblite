@@ -3,6 +3,7 @@ body {
 }
 #nb-content {
     max-width: 800px;
+    margin: auto;
 }
 
 #nb-selector {
