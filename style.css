@@ -1,17 +1,17 @@
 body {
-    padding: 32px 64px;
+    padding: 0 64px;
+    font-family: 'Roboto', sans-serif;
 }
-#nb-content {
+
+.container {
     max-width: 800px;
     margin: auto;
+    padding: 16px;
 }
 
 #nb-selector {
-    max-width: 800px;
     padding: 16px;
-    margin: auto;
     background-color: lightblue;
-    margin-bottom: 16px;
 }
 
 #nb-selector form {
@@ -23,7 +23,6 @@ body {
 }
 
 iframe {
-    padding: 16px;
     display: block;       /* iframes are inline by default */
     border: 1px;         /* Reset default border */
     height: 100vh;        /* Viewport-relative units */
